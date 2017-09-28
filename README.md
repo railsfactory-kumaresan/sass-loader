@@ -1,25 +1,11 @@
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
-[![npm-stats][npm-stats]][npm-url]
-[![deps][deps]][deps-url]
-[![travis][travis]][travis-url]
-[![appveyor][appveyor]][appveyor-url]
-[![coverage][cover]][cover-url]
-[![chat][chat]][chat-url]
 
 <div align="center">
   <img height="100"
     src="https://worldvectorlogo.com/logos/sass-1.svg">
-  <a href="https://github.com/webpack/webpack">
-    <img width="200" height="200"
-      src="https://webpack.js.org/assets/icon-square-big.svg">
-  </a>
   <h1>SASS Loader</h1>
   <p>Loads a SASS/SCSS file and compiles it to CSS.</p>
 </div>
 
-Use the [css-loader](https://github.com/webpack-contrib/css-loader) or the [raw-loader](https://github.com/webpack-contrib/raw-loader) to turn it into a JS module and the [ExtractTextPlugin](https://github.com/webpack-contrib/extract-text-webpack-plugin) to extract it into a separate file.
-Looking for the webpack 1 loader? Check out the [archive/webpack-1 branch](https://github.com/webpack-contrib/sass-loader/tree/archive/webpack-1).
 
 <h2 align="center">Install</h2>
 
@@ -77,7 +63,6 @@ module.exports = {
 };
 ```
 
-See [node-sass](https://github.com/andrew/node-sass) for all available Sass options.
 
 ### In production
 
@@ -190,24 +175,6 @@ If you want to prepend Sass code before the actual entry file, you can set the `
 
 **Please note:** Since you're injecting code, this will break the source mappings in your entry file. Often there's a simpler solution than this, like multiple Sass entry files.
 
-<h2 align="center">Maintainers</h2>
-
-<table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/jhnns"><img width="150" height="150" src="https://avatars0.githubusercontent.com/u/781746?v=3"></a><br>
-        <a href="https://github.com/jhnns">Johannes Ewald</a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/webpack-contrib"><img width="150" height="150" src="https://avatars1.githubusercontent.com/u/1243901?v=3&s=460"></a><br>
-        <a href="https://github.com/webpack-contrib">Jorik Tangelder</a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/akiran"><img width="150" height="150" src="https://avatars1.githubusercontent.com/u/3403295?v=3"></a><br>
-        <a href="https://github.com/akiran">Kiran</a>
-      </td>
-    <tr>
-</table>
 
 
 <h2 align="center">License</h2>
@@ -220,18 +187,3 @@ If you want to prepend Sass code before the actual entry file, you can set the `
 
 [node]: https://img.shields.io/node/v/sass-loader.svg
 [node-url]: https://nodejs.org
-
-[deps]: https://david-dm.org/webpack-contrib/sass-loader.svg
-[deps-url]: https://david-dm.org/webpack-contrib/sass-loader
-
-[travis]: http://img.shields.io/travis/webpack-contrib/sass-loader.svg
-[travis-url]: https://travis-ci.org/webpack-contrib/sass-loader
-
-[appveyor-url]: https://ci.appveyor.com/project/webpack-contrib/sass-loader/branch/master
-[appveyor]: https://ci.appveyor.com/api/projects/status/rqpy1vaovh20ttxs/branch/master?svg=true
-
-[cover]: https://codecov.io/gh/webpack-contrib/sass-loader/branch/master/graph/badge.svg
-[cover-url]: https://codecov.io/gh/webpack-contrib/sass-loader
-
-[chat]: https://badges.gitter.im/webpack/webpack.svg
-[chat-url]: https://gitter.im/webpack/webpack
