@@ -1,6 +1,6 @@
 {
   "name": "g2a-sass-loader",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Sass loader for webpack",
   "author": "Kumaresan",
   "license": "MIT",
@@ -40,7 +40,7 @@
     "eslint-plugin-jsdoc": "^2.4.0",
     "file-loader": "^0.11.2",
     "mocha": "^3.0.2",
-    "g2a-node-sass": "1.0.0",
+    "g2a-node-sass": "^1.0.0",
     "nyc": "^11.0.2",
     "raw-loader": "^0.5.1",
     "should": "^11.2.0",
@@ -50,11 +50,11 @@
     "webpack-merge": "^4.0.0"
   },
   "engines": {
-    "node": ">= 4.3 < 5.0.0 || >= 5.10"
+    "node": ">= 0.10.48"
   },
   "peerDependencies": {
-    "g2a-node-sass": "1.0.0",
-    "webpack": "^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0"
+    "g2a-node-sass": "^1.0.0",
+    "webpack": "1.15.0 || ^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0"
   },
   "keywords": [
     "sass",
